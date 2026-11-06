@@ -1,0 +1,32 @@
+ body {
+            
+            background-color: rgb(91, 97, 106);
+        }
+   .contenedor{ background-color: cornsilk;
+            display: grid;
+            grid-template-rows: auto auto auto;
+            grid-template-columns: 1fr 1fr ;
+            min-height: 50vh;
+        }
+        .contenido{ background-color: rgb(187, 174, 125);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        p {
+            color: rgb(85, 116, 39);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: rgb(107, 56, 155);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h2 {
+            color: rgb(194, 71, 71);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        nav{ background-color: rgb(255, 2, 2);}
+        article{background-color: coral;}
+        aside{background-color: yellow;}
+        div { background-color: fuchsia;}
