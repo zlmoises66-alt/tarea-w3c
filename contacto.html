@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Contacto</h1>
+<p>Todos los campos son obligatorios.</p>
+<form id="form-contacto" action="#" method="post">
+    <p>
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" autocomplete="name" required aria-describedby="error-nombre" aria-invalid="false">
+    </p>
+    <p class="error" id="error-nombre"></p>
+    <p>
+        <label for="correo">Correo electrónico</label><br>
+        <input type="email" id="correo" name="correo" autocomplete="email" required aria-describedby="error-correo" aria-invalid="false">
+    </p>
+    <p class="error" id="error-correo"></p>
+    <p>
+        <label for="mensaje">Mensaje</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="30" required aria-describedby="error-mensaje" aria-invalid="false"></textarea>
+    </p>
+    <p class="error" id="error-mensaje"></p>
+    <p><button type="submit">Enviar mensaje</button></p>
+    <p id="estado" role="status"></p>
+</form>
+<p><a href="leccion.html">Volver al inicio</a></p>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
